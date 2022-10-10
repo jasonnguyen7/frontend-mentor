@@ -16,7 +16,8 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center;
+      :z-index; }
     .attribution a { color: hsl(228, 45%, 44%); }
     
     .title {
@@ -64,26 +65,30 @@
         }
         .main-content {
         position:absolute;  
-        width:200px;
+        width:17rem;
         height:100px;
         margin-left: 1000px;
-        padding-top: 200px;
+        padding-top: 50px;
         padding-right: 30px;
         padding-bottom: 307px;
         padding-left: 80px;
         background-color: white;
         border:5px soilid white;
-        border-radius:10px;
-       
-        }
+        border-radius:10px;}
+
+        /*display:grid;
+          grid-template-columns:1fr 1fr;
+          grid-gap:none; */
 
         .Pic img {
           position:absolute;
-          margin:350px 0 0 695px;
-          width:13.2%;
+          margin:0 0 0 730px;
+          width:12%;
           border-radius:10px;
           z-index:1;
         }
+
+
   </style>
 </head>
 
